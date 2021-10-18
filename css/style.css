@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Blender-Pro;
+    src: url(media\fonts\Blender-Pro-Bold.otf);
+}
+
+@font-face {
+    font-family: Din-Pro;
+    src: url(media\fonts\Din-Pro-Medium.otf);
+}
+
+:root{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ff9331;
+}
+
+.fullpage{
+    font-size: 5rem;
+}
+
+.halfPage{
+    font-size: 4rem;
+}
+
+.halfPage.Right{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.halfPage.Left{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
