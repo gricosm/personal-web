@@ -10,18 +10,24 @@
 
 :root{
     background-color: #ff9331;
+    font-family: Blender-Pro;
 }
 
-.halfPage{
+span.highlight{
+    color: #3b3b3c;
+    font-size: 4px;
+}
+
+#halfPage{
     font-size: 4rem;
 }
 
-.halfPage.Right{
+#halfPage#Right{
     display: grid;
     grid-template-columns: 35% 65%;
 }
 
-.halfPage.Left{
+#halfPage#Left{
     display: grid;
     grid-template-columns: 65% 35%;
 }
