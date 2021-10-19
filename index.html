@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>GRSM - Guillermo Rico Sáinz-Maza</title>
 </head>
 <body>  
-    <main id="fullpage">
-        <div class="section">
+
+    <main>
+
+        <div class="fullPage">
             <h1>
                 ¡HOLA MUNDO!
                 <br>
@@ -18,32 +19,30 @@
                 OS CUENTO COMO VA NO SÉ QUÉ.
             </h1>
         </div>
-        <div class="section" id="halfPage rightPage">
-            <section>
-                <img src="0" alt="Peña programando muy fuerte.">
-            </section>
-            <section>
-                <h1>ESTOY APRENDIENDO A PROGRAMAR Y TAL,
+
+        <div class="fullPage" id="rightPage">
+            <div>
+                <img src="0" alt="Peña programando muy fuerte." id="imgRight">
+            </div>
+            <div>
+                <h1>
+                    ESTOY APRENDIENDO A PROGRAMAR Y TAL,
                     <br>
                     TODO MUY PRO.
                 </h1>
-            </section>
+            </div>
         </div>
-        <div class="section" id="halfPage leftPage">
-            <section>
-                <h1>CO-DIRIJO, PRODUZCO Y PRESENTO UN PODCAST</h1>
-            </section>
-            <section>                
-                <img src="0" alt="Haciendo la podcasteación.">
-            </section>
+
+        <div class="fullPage" id="leftPage">
+            <div>
+                <h1>CO-DIRIJO, PRODUZCO Y PRESENTO UN PODCAST.</h1>
+            </div>
+            <div>                
+                <img src="0" alt="Haciendo la podcasteación." id="imgLeft">
+            </div>
         </div>
+
     </main>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
-    <script>
-        new fullpage('#fullpage', {
-		autoScrolling:true,
-    });
-    </script>
 </body>
 </html>

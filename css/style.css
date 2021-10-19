@@ -1,33 +1,51 @@
 @font-face {
-    font-family: Blender-Pro;
+    font-family: "Bleder-Pro";
     src: url(media\fonts\Blender-Pro-Bold.otf);
 }
 
 @font-face {
-    font-family: Din-Pro;
+    font-family: "Din-Pro";
     src: url(media\fonts\Din-Pro-Medium.otf);
 }
 
-:root{
+:root {
     background-color: #ff9331;
-    font-family: Blender-Pro;
 }
 
-span.highlight{
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+.highlight {
     color: #3b3b3c;
     font-size: 4px;
 }
 
-#halfPage{
-    font-size: 4rem;
+.fullPage {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
-#halfPage#Right{
+#rightPage {
     display: grid;
     grid-template-columns: 35% 65%;
+    grid-template-rows: 100vw;
+    justify-items: stretch;
 }
 
-#halfPage#Left{
+#leftPage {
     display: grid;
     grid-template-columns: 65% 35%;
+    grid-template-rows: 100vw;
+    justify-items: stretch;
+}
+
+.imgRight {
+    grid-column-start: 1;
+}
+
+.imgLeft {
+    grid-column-start: 2;
 }
