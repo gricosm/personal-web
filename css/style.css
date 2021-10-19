@@ -9,13 +9,7 @@
 }
 
 :root{
-    height: 100vh;
-    width: 100vw;
     background-color: #ff9331;
-}
-
-.fullpage{
-    font-size: 5rem;
 }
 
 .halfPage{
